@@ -36,8 +36,6 @@ Before starting these labs, ensure you have:
    - Basic understanding of containers
    - YAML syntax (Not gonna explain all this guys...)
 
-```
-
 ## Lab Domains
 
 ### Domain 1: Kubernetes Fundamentals (44%)

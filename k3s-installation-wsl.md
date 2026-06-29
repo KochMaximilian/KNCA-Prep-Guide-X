@@ -102,7 +102,7 @@ You'll spot the pieces k3s ships with: `coredns` (in-cluster DNS), `local-path-p
 
 ---
 
-## Step 4 — install Prometheus + Grafana
+## Step 4 — install Prometheus + Grafana (OPTIONAL)
 
 Helm is Kubernetes' package manager: it installs a whole stack from one chart instead of making you write dozens of manifests by hand. Install it if it's missing:
 

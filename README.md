@@ -7,7 +7,7 @@ This repository is a personal effort to create organized, easily accessible cont
 
 ## What's in This Directory
 
-- **[KCNA_CHEATSHEET.md](KCNA_CHEATSHEET.md)**: Comprehensive study guide consolidating all domain and lab content
+- **[CHEATSHEET.md](CHEATSHEET.md)**: Comprehensive study guide consolidating all domain and lab content
 - **[domains](domains/)**: Exam domains with detailed theoretical content organized by topic
 - **[labs](labs/)**: Hands-on practical exercises with YAML manifests and kubectl commands
 - **[mock-questions](mock-questions/)**: Sample questions to simulate the exam experience

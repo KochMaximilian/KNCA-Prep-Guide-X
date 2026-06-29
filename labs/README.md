@@ -22,8 +22,9 @@ Before starting these labs, ensure you have:
 1. **Kubernetes Cluster**: One of the following:
    - Minikube (recommended for local development)
    - Kind (Kubernetes in Docker)
-   - Docker Desktop with Kubernetes enabled
+   - Docker Desktop with Kubernetes enabled 
    - Cloud provider managed Kubernetes (EKS, GKE, AKS)
+   - k3s isntalled
 
 2. **Tools Installed**:
    - kubectl (Kubernetes command-line tool)
@@ -33,52 +34,8 @@ Before starting these labs, ensure you have:
 3. **Basic Knowledge**:
    - Linux command line basics
    - Basic understanding of containers
-   - YAML syntax
+   - YAML syntax (Not gonna explain all this guys...)
 
-## Setting Up Your Lab Environment
-
-### Option 1: Minikube (Recommended)
-
-```bash
-# Install minikube
-# macOS
-brew install minikube
-
-# Linux
-curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
-sudo install minikube-linux-amd64 /usr/local/bin/minikube
-
-# Start minikube
-minikube start --nodes=3 --driver=docker
-
-# Verify
-kubectl get nodes
-```
-
-### Option 2: Kind
-
-```bash
-# Install kind
-# macOS
-brew install kind
-
-# Linux
-curl -Lo ./kind https://kind.sigs.k8s.io/dl/latest/kind-linux-amd64
-chmod +x ./kind
-sudo mv ./kind /usr/local/bin/kind
-
-# Create cluster
-kind create cluster --config=- <<EOF
-kind: Cluster
-apiVersion: kind.x-k8s.io/v1alpha4
-nodes:
-- role: control-plane
-- role: worker
-- role: worker
-EOF
-
-# Verify
-kubectl get nodes
 ```
 
 ## Lab Domains

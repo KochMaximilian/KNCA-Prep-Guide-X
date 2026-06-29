@@ -899,8 +899,6 @@ rate(http_requests_total[5m])
 histogram_quantile(0.95, rate(http_request_duration_seconds_bucket[5m]))
 ```
 
-</details>
-
 <details>
 <summary><strong>CNCF Landscape - Key Projects</strong></summary>
 
@@ -914,13 +912,19 @@ histogram_quantile(0.95, rate(http_request_duration_seconds_bucket[5m]))
 - **Fluentd**: Unified logging
 - **Jaeger**: Distributed tracing
 - **CoreDNS**: DNS server
-
-#### Incubating Projects
-
 - **Argo**: GitOps CD
 - **Flux**: GitOps operator
 - **Linkerd**: Service mesh
 - **Falco**: Runtime security
+
+#### Incubating Projects
+
+> Incubating membership changes often — confirm against landscape.cncf.io
+
+- **Backstage**: Developer portal
+- **Knative**: Serverless
+- **Kyverno**: Policy engine
+- **Longhorn**: Block storage
 
 </details>
 

@@ -24,7 +24,7 @@ Before starting these labs, ensure you have:
    - Kind (Kubernetes in Docker)
    - Docker Desktop with Kubernetes enabled 
    - Cloud provider managed Kubernetes (EKS, GKE, AKS)
-   - k3s isntalled
+   - k3s installed
 
 2. **Tools Installed**:
    - kubectl (Kubernetes command-line tool)
@@ -277,7 +277,7 @@ Engage with the cloud-native community:
 
 ### Intermediate Path
 
-5. Lab 02: Administration
+1. Lab 02: Administration
 2. Lab 03: Scheduling
 3. Lab 01: Networking
 4. Lab 04: Storage
@@ -286,7 +286,7 @@ Engage with the cloud-native community:
 
 ### Advanced Path
 
-11. Lab 02: Security
+1. Lab 02: Security
 2. Lab 01: Application Delivery
 3. Lab 01: Observability
 

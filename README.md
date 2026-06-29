@@ -53,7 +53,7 @@ This repository is a personal effort to create organized, easily accessible cont
 2. **Review Topics**: Browse the [Topics Covered](#topics-covered) section to see all exam domains
 3. **Study Theory**: Start with [domains/](domains/) - read topic markdown files for theoretical knowledge
 4. **Hands-On Practice**: Complete corresponding [labs/](labs/) for each topic you study
-5. **Quick Reference**: Use [KCNA_CHEATSHEET.md](KCNA_CHEATSHEET.md) for consolidated review
+5. **Quick Reference**: Use [CHEATSHEET.md](CHEATSHEET.md) for consolidated review
 6. **Track Progress**: Check off completed topics and labs as you go
 
 ### Recommended Study Approach
@@ -79,7 +79,7 @@ This repository is a personal effort to create organized, easily accessible cont
 
 **Review & Practice**
 
-- Review [KCNA_CHEATSHEET.md](KCNA_CHEATSHEET.md)
+- Review [CHEATSHEET.md](CHEATSHEET.md)
 - Revisit challenging topics
 - Practice mock questions if available
 - Review official [CNCF KCNA Curriculum](https://github.com/cncf/curriculum/blob/master/kcna/README.md)

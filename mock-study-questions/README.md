@@ -53,7 +53,7 @@ Complete these labs before taking mock exams:
 
 ### Quick References
 
-- [KCNA Cheat Sheet](../KCNA_CHEATSHEET.md)
+- [Cheat Sheet](../CHEATSHEET.md)
 - [Official KCNA Curriculum](https://github.com/cncf/curriculum/blob/master/kcna/README.md)
 
 ## Tips

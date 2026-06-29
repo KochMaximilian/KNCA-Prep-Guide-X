@@ -10,7 +10,7 @@ This repository is a personal effort to create organized, easily accessible cont
 - **[CHEATSHEET.md](CHEATSHEET.md)**: Comprehensive study guide consolidating all domain and lab content
 - **[domains](domains/)**: Exam domains with detailed theoretical content organized by topic
 - **[labs](labs/)**: Hands-on practical exercises with YAML manifests and kubectl commands
-- **[mock-questions](mock-questions/)**: Sample questions to simulate the exam experience
+- **[mock-questions](mock-study-questions/)**: Sample questions to simulate the exam experience
 
 ## Topics Covered
 

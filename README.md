@@ -86,7 +86,6 @@ This repository is a personal effort to create organized, easily accessible cont
 
 ### Additional Resources
 
-- [Official KCNA Exam Page](https://training.linuxfoundation.org/certification/kubernetes-cloud-native-associate/) - Exam details and registration
 - [Official KCNA Curriculum](https://github.com/cncf/curriculum/blob/master/kcna/README.md) - CNCF's official exam curriculum
 - [Kubernetes Documentation](https://kubernetes.io/docs/) - Official K8s docs
 - [CNCF Landscape](https://landscape.cncf.io/) - Overview of cloud-native projects

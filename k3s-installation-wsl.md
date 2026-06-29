@@ -1,6 +1,4 @@
-# Hands-on Lab: k3s + Grafana on a Laptop (WSL or macOS)
-
-Spin up a real single-node Kubernetes cluster on your own laptop — no cloud, no cost — and run Prometheus + Grafana on it. It pairs with the KCNA study guide: you touch several exam domains in about 20 minutes of hands-on.
+# Hands-on Lab: k3s p(WSL or macOS)
 
 **You need:** Windows with WSL2 and an Ubuntu distro (run `wsl --install -d Ubuntu` from PowerShell if you don't have one). On macOS, follow the Multipass alternative in Step 0 instead.
 
@@ -40,9 +38,8 @@ Reopen Ubuntu and run `systemctl is-system-running`. Either `running` or `degrad
 
 ## Step 0 (macOS) — get a Linux VM with Multipass
 
-*Optional showcase — good to have so Mac folks can follow along, not something they must do.*
 
-macOS can't run k3s natively because k3s only runs on Linux, so you give it a small Ubuntu VM and run the lab inside that. Install Multipass with `brew install --cask multipass`, then:
+macOS can't run k3s natively because k3s only runs on Linux, so you give it a small Ubuntu VM and run k3s inside that. Install Multipass with `brew install --cask multipass`, then:
 
 ```bash
 multipass launch --name k3slab --cpus 2 --memory 4G --disk 20G
@@ -53,9 +50,9 @@ What the lines do:
 - `multipass launch` creates and boots a VM. `--name` labels it; `--cpus`, `--memory`, and `--disk` size it.
 - `multipass shell k3slab` drops you into that VM's Ubuntu shell.
 
-You're now in Ubuntu, so skip the Windows Step 0 (a real VM already runs systemd) and start at Step 1. Everything matches except one detail at Step 5, noted there.
+You're now in Ubuntu, so skip the Windows Step 0 ( real VM already runs systemd) and start at Step 1. Everything matches except one detail at Step 5, noted there.
 
-If you don't want to install k3s by hand, Rancher Desktop packages k3s in a free GUI app and wires up kubectl for you.
+If you don't want to install k3s by hand, *Rancher Desktop* packages k3s in a free GUI app and wires up kubectl for you.
 
 ---
 
